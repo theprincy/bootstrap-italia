@@ -139,6 +139,13 @@
               color: $primary-b3;
             }
           }
+
+          .icon,
+          .avatar {
+            & + * {
+              margin-left: 0.5em;
+            }
+          }
         }
       }
       h3 {

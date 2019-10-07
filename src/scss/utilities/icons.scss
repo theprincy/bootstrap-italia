@@ -33,6 +33,11 @@
       padding: 16px;
     }
   }
+
+  & + a,
+  & + span {
+    margin-left: 0.25em;
+  }
 }
 
 // Force color when icon-color class is explicitly used

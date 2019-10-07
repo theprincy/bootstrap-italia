@@ -3,6 +3,11 @@
     padding: $breadcrumb-padding 0;
     border-radius: $breadcrumb-border-radius;
     .breadcrumb-item {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
       padding-left: 0;
       & + .breadcrumb-item:before {
         display: none;
